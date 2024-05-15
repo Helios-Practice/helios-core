@@ -1,0 +1,6 @@
+name: Helios-Hub-Core
+author: ["TheLeqendPvP, EerieAlchemist"]
+version: 0.0.1
+api: 3.15.0
+main: HeliosTeam\Hub\Main
+description: "Helios's Hub Core"
