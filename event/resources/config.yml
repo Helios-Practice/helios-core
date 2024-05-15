@@ -1,0 +1,8 @@
+# The world in which the sumo event will take place.
+world: "Sumo-Event"
+
+# The position of the first participant in the 1v1 layout.
+pos: [261.5, 54, 248.5]
+
+# The position of the second participant in the 1v1 layout.
+pos2: [272.5, 54, 248.5]

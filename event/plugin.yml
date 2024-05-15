@@ -1,0 +1,12 @@
+name: Helios-Events
+author: EerieAlchemist
+version: 1.0.0
+main: HeliosTeam\Events\Main
+api: [3.0.0]
+commands:
+  sumo:
+    description: create or join a sumo event
+permissions:
+  helios.event.host:
+    description: the permission to manage sumo events
+    default: op
