@@ -1,0 +1,170 @@
+---
+NoDebuff-D1:
+  spawns:
+  - - -1969
+    - 42
+    - 47
+  - - -2001
+    - 42
+    - 16
+  kit: NoDebuff
+  type: unranked
+  world: Alaska
+  needed: none
+NoDebuff-D2:
+  spawns:
+  - - -6012
+    - 26
+    - 50
+  - - -5975
+    - 26
+    - 51
+  kit: NoDebuff
+  type: unranked
+  world: Hawaii
+  needed: none
+NoDebuff-D3:
+  spawns:
+  - - -1
+    - 71
+    - -33
+  - - 0
+    - 71
+    - 35
+  kit: NoDebuff
+  type: unranked
+  world: Reef
+  needed: none
+NoDebuff-D4:
+  spawns:
+  - - 35
+    - 65
+    - 0
+  - - -35
+    - 65
+    - 0
+  kit: NoDebuff
+  type: unranked
+  world: Backwood
+  needed: none
+NoDebuff-D5:
+  spawns:
+  - - 0
+    - 77
+    - -30
+  - - 0
+    - 77
+    - 33
+  kit: NoDebuff
+  type: unranked
+  world: Skyport
+  needed: none
+Sumo-D1:
+  spawns:
+  - - 293
+    - 14
+    - 293
+  - - 293
+    - 14
+    - 283
+  kit: Sumo
+  type: unranked
+  world: Sumo
+  needed: none
+Sumo-D2:
+  spawns:
+  - - 256
+    - 66
+    - 251
+  - - 256
+    - 66
+    - 261
+  kit: Sumo
+  type: unranked
+  world: Pokeball
+  needed: none
+Sumo-D3:
+  spawns:
+  - - 263
+    - 64
+    - 257
+  - - 252
+    - 64
+    - 257
+  kit: Sumo
+  type: unranked
+  world: Cqses
+  needed: none
+Gapple-D1:
+  spawns:
+  - - 0
+    - 77
+    - -34
+  - - 0
+    - 77
+    - 35
+  kit: Gapple
+  type: unranked
+  world: SpikeRock Bay
+  needed: none
+Gapple-D2:
+  spawns:
+  - - 279
+    - 213
+    - 1474
+  - - 279
+    - 213
+    - 1415
+  kit: Gapple
+  type: unranked
+  world: Gapple-Duels
+  needed: none
+Combo-D1:
+  spawns:
+  - - 0
+    - 67
+    - -35
+  - - 0
+    - 65
+    - 34
+  kit: Combo
+  type: unranked
+  world: Neon
+  needed: none
+Combo-D2:
+  spawns:
+  - - -34
+    - 74
+    - -1
+  - - 36
+    - 74
+    - 0
+  kit: Combo
+  type: unranked
+  world: Highset
+  needed: none
+Fist-D1:
+  spawns:
+  - - 0
+    - 71
+    - -35
+  - - 0
+    - 71
+    - 34
+  kit: Fist
+  type: unranked
+  world: Fight Night
+  needed: none
+Fist-D2:
+  spawns:
+  - - 1
+    - 71
+    - -36
+  - - 0
+    - 71
+    - 33
+  kit: Fist
+  type: unranked
+  world: Museum
+  needed: none
+...

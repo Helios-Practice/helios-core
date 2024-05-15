@@ -1,0 +1,17 @@
+---
+# PLAYER DATA SYSTEM
+
+# Player Data:
+#   - Player name
+#   - IP address
+#   - Client ID
+#   - XUID
+#   - Aliases
+
+Player Data:
+  - EerieAlchemist
+  - 127.0.0.1
+  - 3259432860080503350
+  - "2535405282164168"
+  - EerieAlchemist, TooTru4uHacksMC
+...

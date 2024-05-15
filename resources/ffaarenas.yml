@@ -1,0 +1,41 @@
+NoDebuff:
+  name: NoDebuff
+  kit: NoDebuff
+  type: ffa
+  world: NoDebuff-FFA
+
+Fist:
+  name: Fist
+  kit: Fist
+  type: ffa
+  world: Fist-FFA
+
+Sumo:
+  name: Sumo
+  kit: Sumo
+  type: ffa
+  world: Sumo-FFA
+
+Gapple:
+  name: Gapple
+  kit: Gapple
+  type: ffa
+  world: Gapple-FFA
+
+Combo:
+  name: Combo
+  kit: Combo
+  type: ffa
+  world: Combo-FFA
+
+Resistance:
+  name: Resistance
+  kit: Resistance
+  type: ffa
+  world: Resistance-FFA
+
+Scrims:
+  name: Scrims
+  kit: Scrims
+  type: ffa
+  world: Scrims-1

@@ -1,0 +1,122 @@
+# KIT CONFIG FORMAT
+
+# KitName:
+#   floating-text-top: "x:y:z"
+#   image-path: "textures/items/stick"
+#   items:
+#   - "ID:Damage:Amount"
+#                 or
+#   - "ID:Damage:Amount:Enchant:Enchant_Level"
+#   helmet: "ID" or "ID:Enchant:Enchant_Level"
+#   chestplate: "ID" or "ID:Enchant:Enchant_Level"
+#   leggings: "ID" or "ID:Enchant:Enchant_Level"
+#   boots: "ID" or "ID:Enchant:Enchant_Level"
+#   effects: "ID:AMP:TIME"
+#   commands:
+#   - "tell {player} Hello!"
+#   - "command 2"
+
+# If "commands" = null --> []
+# If "items" = null --> []
+# If "helmet" "chestplate" "leggings" "boots" = null --> "0"
+
+NoDebuff:
+  image-path: "textures/items/potion_bottle_splash_heal"
+  items:
+    - "276:0:1:unbreaking:3"
+    - "368:0:16"
+    - "438:22:34"
+  helmet: "310:unbreaking:3"
+  chestplate: "311:unbreaking:3"
+  leggings: "312:unbreaking:3"
+  boots: "313:unbreaking:3"
+  effects:
+    - "1:999999:0"
+  commands: []
+
+Gapple:
+  image-path: "textures/items/apple_golden"
+  items:
+    - "276:0:1"
+    - "322:0:10"
+  helmet: "310:unbreaking:3"
+  chestplate: "311:unbreaking:3"
+  leggings: "312:unbreaking:3"
+  boots: "313:unbreaking:3"
+  effects: []
+  commands: []
+
+Fist:
+  image-path: "textures/items/beef_cooked"
+  items:
+    - "364:0:64"
+  helmet: "0"
+  chestplate: "0"
+  leggings: "0"
+  boots: "0"
+  effects: []
+  commands: []
+
+BuildUHC:
+  image-path: "textures/items/bucket_tropical"
+  items:
+    - "276:0:1:unbreaking:3"
+    - "261:0:1"
+    - "262:0:128"
+    - "354:0:64"
+    - "322:0:12"
+    - "279:0:1:unbreaking:3"
+    - "278:0:1:unbreaking:3"
+    - "179:0:128"
+  helmet: "310:unbreaking:3"
+  chestplate: "311:unbreaking:3"
+  leggings: "312:unbreaking:3"
+  boots: "313:unbreaking:3"
+  effects: []
+  commands: []
+
+Combo:
+  image-path: "textures/items/fish_pufferfish_raw"
+  items:
+    - "276:0:1"
+    - "368:0:5"
+    - "466:0:8"
+  helmet: "310:unbreaking:3"
+  chestplate: "311:unbreaking:3"
+  leggings: "312:unbreaking:3"
+  boots: "313:unbreaking:3"
+  effects:
+    - "1:999999:0"
+  commands: []
+
+Sumo:
+  image-path: "textures/items/fish_pufferfish_raw"
+  items: []
+  helmet: "0"
+  chestplate: "0"
+  leggings: "0"
+  boots: "0"
+  effects:
+    - "11:999999:10"
+  commands: []
+
+Resistance:
+  image-path: "textures/items/fish_pufferfish_raw"
+  items: []
+  helmet: "0"
+  chestplate: "0"
+  leggings: "0"
+  boots: "0"
+  effects:
+    - "11:999999:10"
+  commands: []
+
+Scrims:
+  image-path: "textures/items/fish_pufferfish_raw"
+  items: []
+  helmet: "0"
+  chestplate: "0"
+  leggings: "0"
+  boots: "0"
+  effects: []
+  commands: []

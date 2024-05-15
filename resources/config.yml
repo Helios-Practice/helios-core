@@ -1,0 +1,87 @@
+---
+########## DEFAULT CONFIG VALUES##########
+
+# The core prefix.
+prefix: "§8[§aHelios§8] "
+
+# The message sent to players who join the queue.
+join-message: "§aYou have joined the queue."
+
+# The message sent to players who leave the queue.
+quit-message: "§cYou left the queue."
+
+# The message broadcast when a duel is over. {winner} {elo-won} {loser} {elo=lost}
+finish-message: "§f{winner} §7[§c+{elo_won}§7] §7won a duel vs. §f{loser} §7[§c-{elo_lost}§7]."
+
+# The length of the duel countdown.
+countdown: 5
+
+# The default elo to add to a player who has joined the server for the first time.
+default-elo: 0
+
+# The amount of elo to add to a player who wins a ranked duel.
+elo-to-add: 10
+
+# The amount of elo to remove from a player who loses a ranked duel.
+elo-to-sub: 5
+
+# The name of the level in which floating text leaderboards are added.
+floatingtext-level: "Lobby"
+
+# The level name of the server lobby.
+lobby: "Lobby"
+
+# The image for the "back" button in leaderboard UIs.
+back-button-image: "textures/items/stick"
+
+########## LOBBY SYSTEM ##########
+
+ffa-item: "1:272:§r§l§aFFA Arenas"
+cosmetics-item: "6:399:§r§l§aCosmetics"
+statslb-item: "7:347:§r§l§aStatistics"
+mods-item: "8:342:§r§l§aMods/Settings"
+
+# The unranked duel item. SLOT:ID:NAME
+unranked-item: "0:267:§r§l§aUnranked Duels"
+
+# The queue item. SLOT:ID:NAME
+queue-item: "8:331:§r§l§cLeave queue"
+
+########## BAN SYSTEM ##########
+
+# Messages to display on players' screen when client banned.
+
+on-ban: "§dYou have been permanently banned from Helios Practice!\n§dBanned by: §bCONSOLE\n§dReason: §bhacking or abuse\n§dDiscord Server: §bhttps://bit.ly/heliospractice"
+on-join: "§dYou have been permanently banned from Helios Practice!\n§dBanned by: §bCONSOLE\n§dReason: §bhacking or abuse\n§dDiscord Server: §bhttps://bit.ly/heliospractice"
+
+# Broadcast to staff members when a client-banned player attempts to connect.
+
+broadcast: true
+
+# Message to broadcast to staff members when a client-banned player attempts to connect (use {player} for the player's name, {IP} for their IP address.
+
+b-message: "§7{player} [{ip}] attempted to join while client-banned."
+
+
+########## DIVISION SYSTEM ##########
+
+# The list of default elo divisions. The first division starts with an elo amount of 0.
+ranks:
+  Bronze I:
+    elo: 0
+    prefix: "[Bronze I]"
+  Bronze II:
+    elo: 100
+    prefix: "[Bronze II]"
+  Bronze III:
+    elo: 250
+    prefix: "[Bronze III]"
+
+########## RANKS [WORK IN PROGRESS] ##########
+
+# The list of ranks, based on the amount of ranked duels won.
+groups:
+  default: 50
+  Vip: 75
+  Vip+: 100
+...

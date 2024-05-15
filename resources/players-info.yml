@@ -1,0 +1,20 @@
+EerieAlchemist:
+  NoDebuff:
+    wins: 1
+    loses: 1
+  Gapple:
+    wins: 1
+    loses: 0
+  Fist:
+    wins: 1
+    loses: 1
+  BuildUHC:
+    wins: 0
+    loses: 0
+  Combo:
+    wins: 1
+    loses: 0
+  Sumo:
+    wins: 1
+    loses: 0
+  ranked-played: 0
